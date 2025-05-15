@@ -8,11 +8,7 @@
 /// @DnDArgument : "var" "hp"
 draw_text(x + 0, y + -25, string("HP: ") + string(hp));
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDAction : YoYo Games.Drawing.Draw_Self
 /// @DnDVersion : 1
-/// @DnDHash : 043ED742
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "sprite" "S_Hop"
-/// @DnDSaveInfo : "sprite" "S_Hop"
-draw_sprite(S_Hop, 0, x + 0, y + 0);
+/// @DnDHash : 0D6ED599
+draw_self();

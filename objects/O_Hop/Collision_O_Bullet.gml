@@ -19,6 +19,6 @@ with(other) instance_destroy();
 /// @DnDArgument : "op" "3"
 if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 23F03B7C
+	/// @DnDHash : 0A6E9EB7
 	/// @DnDParent : 0C4CEC57
 	instance_destroy();}
