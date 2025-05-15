@@ -19,7 +19,8 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e7d6448d-a39e-4b3a-90ee-5dc496bcb5c5","blendMode":0,"displayName":"default","isLocked":false,"name":"e7d6448d-a39e-4b3a-90ee-5dc496bcb5c5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2e55640d-febe-4aaf-a03b-e85703f808ec","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"2e55640d-febe-4aaf-a03b-e85703f808ec","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"02e69ed6-0c7f-4484-b4a4-6714bb4a8e7e","blendMode":0,"displayName":"default","isLocked":false,"name":"02e69ed6-0c7f-4484-b4a4-6714bb4a8e7e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Shep",
   "nineSlice":null,

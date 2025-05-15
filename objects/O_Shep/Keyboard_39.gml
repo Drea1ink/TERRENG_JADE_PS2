@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2D936B76
+/// @DnDArgument : "var" "dir"
+dir = 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 6733590D
+/// @DnDArgument : "imageind_relative" "1"
+/// @DnDArgument : "spriteind" "S_Shep"
+/// @DnDSaveInfo : "spriteind" "S_Shep"
+sprite_index = S_Shep;
+image_index += 0;
+
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
 /// @DnDHash : 26C54F4E
