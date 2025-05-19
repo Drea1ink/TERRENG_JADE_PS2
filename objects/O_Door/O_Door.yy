@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Recharge",
+  "%Name":"O_Door",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Bullet_key","path":"objects/O_Bullet_key/O_Bullet_key.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Recharge",
+  "name":"O_Door",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Reloader",
-    "path":"sprites/S_Reloader/S_Reloader.yy",
+    "name":"S_door",
+    "path":"sprites/S_door/S_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

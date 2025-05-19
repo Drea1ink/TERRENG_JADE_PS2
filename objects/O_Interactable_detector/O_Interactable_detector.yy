@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_Recharge",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Interactable_detector",
+  "eventList":[],
   "managed":true,
-  "name":"O_Recharge",
+  "name":"O_Interactable_detector",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Invisible",
+    "path":"folders/Objects/Invisible.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Reloader",
-    "path":"sprites/S_Reloader/S_Reloader.yy",
+    "name":"S_Interactable_detector",
+    "path":"sprites/S_Interactable_detector/S_Interactable_detector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

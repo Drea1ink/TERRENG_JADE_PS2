@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"O_Bullet_key",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Shep","path":"objects/O_Shep/O_Shep.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Bullet_key",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_KeyBullet",
+    "path":"sprites/S_KeyBullet/S_KeyBullet.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
