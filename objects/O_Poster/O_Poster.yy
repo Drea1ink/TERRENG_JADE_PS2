@@ -1,13 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"O_Poster",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Poster",
   "overriddenProperties":[],
   "parent":{
-    "name":"Invisible",
-    "path":"folders/Objects/Invisible.yy",
+    "name":"Objects",
+    "path":"folders/Objects/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -23,11 +27,18 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"Small_poster","filters":[],"listItems":[],"multiselect":false,"name":"Small_poster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"show","filters":[],"listItems":[],"multiselect":false,"name":"show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"Big_Poster","filters":[],"listItems":[],"multiselect":false,"name":"Big_Poster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Affiche",
+    "path":"sprites/S_Affiche/S_Affiche.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
