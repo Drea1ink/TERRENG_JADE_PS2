@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Inhibitor",
-  "eventList":[],
+  "%Name":"O_Detection_left",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Inhibitor",
+  "name":"O_Detection_left",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Invisible",
+    "path":"folders/Objects/Invisible.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Inhibitor",
-    "path":"sprites/S_Inhibitor/S_Inhibitor.yy",
+    "name":"S_Detection_left",
+    "path":"sprites/S_Detection_left/S_Detection_left.yy",
   },
   "spriteMaskId":null,
   "visible":true,

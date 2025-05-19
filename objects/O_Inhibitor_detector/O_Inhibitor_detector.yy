@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_Inhibitor",
+  "%Name":"O_Inhibitor_detector",
   "eventList":[],
   "managed":true,
-  "name":"O_Inhibitor",
+  "name":"O_Inhibitor_detector",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Invisible",
+    "path":"folders/Objects/Invisible.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Inhibitor",
-    "path":"sprites/S_Inhibitor/S_Inhibitor.yy",
+    "name":"S_Inhibitor_detector",
+    "path":"sprites/S_Inhibitor_detector/S_Inhibitor_detector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

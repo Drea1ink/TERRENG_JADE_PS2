@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_Detection",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Detection_right",
+  "eventList":[],
   "managed":true,
-  "name":"O_Detection",
+  "name":"O_Detection_right",
   "overriddenProperties":[],
   "parent":{
     "name":"Invisible",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Detection",
-    "path":"sprites/S_Detection/S_Detection.yy",
+    "name":"S_Detection_right",
+    "path":"sprites/S_Detection_right/S_Detection_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,
