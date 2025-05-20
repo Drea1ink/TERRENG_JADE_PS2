@@ -57,6 +57,15 @@ var l0DA482A9_0 = false;l0DA482A9_0 = instance_exists(O_Shep);if(l0DA482A9_0)
 				/// @DnDSaveInfo : "objectid" "O_BulletFoe"
 				instance_create_layer(x + 0, y + 0, "Objects", O_BulletFoe);
 			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 64BFFD44
+				/// @DnDApplyTo : {O_BulletFoe}
+				/// @DnDParent : 54C27ABF
+				/// @DnDArgument : "speed" "-5"
+				/// @DnDArgument : "type" "1"
+				with(O_BulletFoe) hspeed = -5;
+			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 5E5133FB
@@ -124,6 +133,15 @@ var l0DA482A9_0 = false;l0DA482A9_0 = instance_exists(O_Shep);if(l0DA482A9_0)
 				/// @DnDArgument : "layer" ""Objects""
 				/// @DnDSaveInfo : "objectid" "O_BulletFoe"
 				instance_create_layer(x + 0, y + 0, "Objects", O_BulletFoe);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 4EDC4267
+				/// @DnDApplyTo : {O_BulletFoe}
+				/// @DnDParent : 6680BAFE
+				/// @DnDArgument : "speed" "5"
+				/// @DnDArgument : "type" "1"
+				with(O_BulletFoe) hspeed = 5;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
