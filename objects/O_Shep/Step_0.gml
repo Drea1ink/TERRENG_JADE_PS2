@@ -14,7 +14,89 @@ var l56168B55_0;l56168B55_0 = keyboard_check(vk_left);if (!l56168B55_0){	///
 		/// @DnDHash : 53BDF28F
 		/// @DnDParent : 6B1A5C00
 		/// @DnDArgument : "type" "1"
-		hspeed = 0;}}
+		hspeed = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3E55EF43
+		/// @DnDParent : 6B1A5C00
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "marche"
+		marche = false;}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 305E0315
+/// @DnDArgument : "var" "marche"
+/// @DnDArgument : "value" "false"
+if(marche == false){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 72C71A0C
+	/// @DnDParent : 305E0315
+	/// @DnDArgument : "var" "dir"
+	if(dir == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 09A62119
+		/// @DnDParent : 72C71A0C
+		/// @DnDArgument : "var" "glitch"
+		/// @DnDArgument : "value" "true"
+		if(glitch == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 0FADAF8F
+			/// @DnDParent : 09A62119
+			/// @DnDArgument : "imageind_relative" "1"
+			/// @DnDArgument : "spriteind" "S_Hop"
+			/// @DnDSaveInfo : "spriteind" "S_Hop"
+			sprite_index = S_Hop;
+			image_index += 0;}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 6FCB0531
+		/// @DnDParent : 72C71A0C
+		else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 6A35B939
+			/// @DnDParent : 6FCB0531
+			/// @DnDArgument : "imageind_relative" "1"
+			/// @DnDArgument : "spriteind" "S_Shep"
+			/// @DnDSaveInfo : "spriteind" "S_Shep"
+			sprite_index = S_Shep;
+			image_index += 0;}}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 1A4CA278
+	/// @DnDParent : 305E0315
+	else{	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 070E3710
+		/// @DnDParent : 1A4CA278
+		/// @DnDArgument : "var" "glitch"
+		/// @DnDArgument : "value" "true"
+		if(glitch == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 08327DE3
+			/// @DnDParent : 070E3710
+			/// @DnDArgument : "imageind_relative" "1"
+			/// @DnDArgument : "spriteind" "S_Hop_left"
+			/// @DnDSaveInfo : "spriteind" "S_Hop_left"
+			sprite_index = S_Hop_left;
+			image_index += 0;}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 4853B26E
+		/// @DnDParent : 1A4CA278
+		else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 24CC77EE
+			/// @DnDParent : 4853B26E
+			/// @DnDArgument : "imageind_relative" "1"
+			/// @DnDArgument : "spriteind" "S_Shep_left"
+			/// @DnDSaveInfo : "spriteind" "S_Shep_left"
+			sprite_index = S_Shep_left;
+			image_index += 0;}}}
 
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
@@ -82,14 +164,7 @@ var l5F8C2836_0 = collision_rectangle(x + 32, y + 0, x + 64, y + 64, O_Collider,
 	/// @DnDArgument : "expr" "-2"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x += -2;
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 33C58418
-	/// @DnDParent : 5F8C2836
-	/// @DnDArgument : "msg" ""Je suis dans le mur de droite :(""
-	show_debug_message(string("Je suis dans le mur de droite :("));}
+	x += -2;}
 
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
@@ -111,14 +186,7 @@ var l4A1F9174_0 = collision_rectangle(x + 0, y + 0, x + 32, y + 64, O_Collider, 
 	/// @DnDArgument : "expr" "2"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x += 2;
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 4282F075
-	/// @DnDParent : 4A1F9174
-	/// @DnDArgument : "msg" ""je suis dans le mur de gauche :(""
-	show_debug_message(string("je suis dans le mur de gauche :("));}
+	x += 2;}
 
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1

@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"O_Ventilation",
-  "eventList":[],
+  "%Name":"O_Journals",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Ventilation",
+  "name":"O_Journals",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_Recharge",
-    "path":"objects/O_Recharge/O_Recharge.yy",
+    "name":"O_Poster",
+    "path":"objects/O_Poster/O_Poster.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

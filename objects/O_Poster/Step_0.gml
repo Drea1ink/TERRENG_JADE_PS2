@@ -36,12 +36,28 @@ var l49E10947_0 = collision_point(x + 32, y + 0, O_Shep, true, 1);if((l49E10947
 	/// @DnDVersion : 1
 	/// @DnDHash : 55807F0D
 	/// @DnDParent : 49E10947
-	else{	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	else{	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1EDD6377
+		/// @DnDParent : 55807F0D
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "var" "O_Shep.reading"
+		O_Shep.reading = true;
+	
+		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 		/// @DnDVersion : 1
 		/// @DnDHash : 62BE2A07
 		/// @DnDParent : 55807F0D
 		/// @DnDArgument : "key" "ord("A")"
 		var l62BE2A07_0;l62BE2A07_0 = keyboard_check_pressed(ord("A"));if (l62BE2A07_0){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5B921AFC
+			/// @DnDParent : 62BE2A07
+			/// @DnDArgument : "expr" "false"
+			/// @DnDArgument : "var" "O_Shep.reading"
+			O_Shep.reading = false;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 02EA615E
 			/// @DnDParent : 62BE2A07

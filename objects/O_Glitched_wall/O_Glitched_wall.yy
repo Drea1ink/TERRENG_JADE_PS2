@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Ventilation",
+  "%Name":"O_Glitched_wall",
   "eventList":[],
   "managed":true,
-  "name":"O_Ventilation",
+  "name":"O_Glitched_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"O_Recharge",
-    "path":"objects/O_Recharge/O_Recharge.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
