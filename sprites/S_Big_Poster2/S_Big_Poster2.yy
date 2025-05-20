@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"S_Big_Poster2",
   "bboxMode":0,
-  "bbox_bottom":610,
+  "bbox_bottom":955,
   "bbox_left":0,
-  "bbox_right":1022,
+  "bbox_right":1599,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":611,
+  "height":956,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a98e5fd1-1741-47b7-84ef-0827c1ac0f97","blendMode":0,"displayName":"default","isLocked":false,"name":"a98e5fd1-1741-47b7-84ef-0827c1ac0f97","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1023,
+  "width":1600,
 }

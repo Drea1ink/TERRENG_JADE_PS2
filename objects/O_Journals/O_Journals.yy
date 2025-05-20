@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Journal",
+    "path":"sprites/S_Journal/S_Journal.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

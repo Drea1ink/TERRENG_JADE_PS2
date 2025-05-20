@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 2646B323
 /// @DnDArgument : "var" "clipping"
-/// @DnDArgument : "value" "true"
-if(clipping == true){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "value" "false"
+if(clipping == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 31880894
 	/// @DnDParent : 2646B323

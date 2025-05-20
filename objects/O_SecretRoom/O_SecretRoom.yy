@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Glitched_wall",
+  "%Name":"O_SecretRoom",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Glitched_wall",
+  "name":"O_SecretRoom",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

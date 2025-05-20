@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_Glitched_wall",
+  "%Name":"O_Trap",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Bullet","path":"objects/O_Bullet/O_Bullet.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Glitched_wall",
+  "name":"O_Trap",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -25,13 +26,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"active","filters":[],"listItems":[],"multiselect":false,"name":"active","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Interactable_detector",
-    "path":"sprites/S_Interactable_detector/S_Interactable_detector.yy",
+    "name":"S_Trap",
+    "path":"sprites/S_Trap/S_Trap.yy",
   },
   "spriteMaskId":null,
   "visible":true,

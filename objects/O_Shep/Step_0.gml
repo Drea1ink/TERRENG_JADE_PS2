@@ -153,7 +153,6 @@ var l5E6CF036_0 = collision_rectangle(x + 3, y + 0, x + 61, y + -20, O_Collider,
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "64"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "obj" "O_Collider"
 /// @DnDArgument : "shape" "1"
 /// @DnDSaveInfo : "obj" "O_Collider"
@@ -175,7 +174,6 @@ var l5F8C2836_0 = collision_rectangle(x + 32, y + 0, x + 64, y + 64, O_Collider,
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "64"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "obj" "O_Collider"
 /// @DnDArgument : "shape" "1"
 /// @DnDSaveInfo : "obj" "O_Collider"
@@ -315,3 +313,14 @@ else{	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "var" "can_shoot"
 	can_shoot = true;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 78688618
+/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "op" "3"
+if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7FD391EB
+	/// @DnDParent : 78688618
+	instance_destroy();}
