@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Door",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Bullet_key","path":"objects/O_Bullet_key/O_Bullet_key.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Ventilation",
+  "eventList":[],
   "managed":true,
-  "name":"O_Door",
+  "name":"O_Ventilation",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"O_Collider",
-    "path":"objects/O_Collider/O_Collider.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"S_door",
-    "path":"sprites/S_door/S_door.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
