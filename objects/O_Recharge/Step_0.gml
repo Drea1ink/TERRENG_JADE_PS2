@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0DA234FC
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "interaction_shep"
+interaction_shep = false;
+
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Point
 /// @DnDVersion : 1
 /// @DnDHash : 35ED77C0

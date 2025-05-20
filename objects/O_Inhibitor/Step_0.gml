@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2205AA7F
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "interaction_shep"
+interaction_shep = false;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65C55210
