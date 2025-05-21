@@ -319,8 +319,10 @@ else{	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDHash : 78688618
 /// @DnDArgument : "var" "hp"
 /// @DnDArgument : "op" "3"
-if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+if(hp <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 7FD391EB
+	/// @DnDHash : 103D184B
 	/// @DnDParent : 78688618
-	instance_destroy();}
+	/// @DnDArgument : "room" "Game_over"
+	/// @DnDSaveInfo : "room" "Game_over"
+	room_goto(Game_over);}

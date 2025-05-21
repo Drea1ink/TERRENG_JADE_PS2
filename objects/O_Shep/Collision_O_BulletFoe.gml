@@ -22,9 +22,10 @@ if(invincible == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 29B47CC0
 	/// @DnDParent : 78B97862
-	/// @DnDArgument : "expr" "hp-1"
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "hp"
-	hp = hp-1;
+	hp += -1;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
