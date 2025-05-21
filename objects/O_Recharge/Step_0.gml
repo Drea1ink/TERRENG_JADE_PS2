@@ -22,6 +22,6 @@ var l35ED77C0_0 = collision_point(x + 32, y + 0, O_Shep, true, 1);if((l35ED77C0
 		/// @DnDVersion : 1
 		/// @DnDHash : 6B817235
 		/// @DnDParent : 567EE498
-		/// @DnDArgument : "expr" "5"
+		/// @DnDArgument : "expr" "4"
 		/// @DnDArgument : "var" "O_Shep.bullets"
-		O_Shep.bullets = 5;}}
+		O_Shep.bullets = 4;}}
