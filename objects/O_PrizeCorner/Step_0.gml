@@ -10,11 +10,11 @@ interaction_shep = false;
 /// @DnDHash : 565B975A
 /// @DnDArgument : "x" "32"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "32"
+/// @DnDArgument : "y" "64"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "O_Shep"
 /// @DnDSaveInfo : "obj" "O_Shep"
-var l565B975A_0 = collision_point(x + 32, y + 32, O_Shep, true, 1);if((l565B975A_0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+var l565B975A_0 = collision_point(x + 32, y + 64, O_Shep, true, 1);if((l565B975A_0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 	/// @DnDVersion : 1
 	/// @DnDHash : 23F722A0
 	/// @DnDParent : 565B975A

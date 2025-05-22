@@ -41,6 +41,7 @@
     {"name":"inst_7D7AAAF6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_15E25CCC","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_7F8073B3","path":"rooms/Test_Room/Test_Room.yy",},
+    {"name":"inst_2268AD0","path":"rooms/Test_Room/Test_Room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -85,6 +86,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Poster","path":"objects/O_Poster/O_Poster.yy",},"propertyId":{"name":"Big_Poster","path":"objects/O_Poster/O_Poster.yy",},"resource":{"name":"S_BigJournal","path":"sprites/S_BigJournal/S_BigJournal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_BigJournal",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":1664.0,},
         {"$GMRInstance":"v1","%Name":"inst_7F8073B3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F8073B3","objectId":{"name":"O_PrizeCorner","path":"objects/O_PrizeCorner/O_PrizeCorner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":1792.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2268AD0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2268AD0","objectId":{"name":"O_Backroom_door","path":"objects/O_Backroom_door/O_Backroom_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":1664.0,},
       ],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Colliders","depth":600,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2424303E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2424303E","objectId":{"name":"O_Collider","path":"objects/O_Collider/O_Collider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":21.0,"scaleY":1.0,"x":0.0,"y":704.0,},
