@@ -39,6 +39,8 @@
     {"$GMObjectProperty":"v1","%Name":"taille","filters":[],"listItems":[],"multiselect":false,"name":"taille","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"left","filters":[],"listItems":[],"multiselect":false,"name":"left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"S_Hop_left","path":"sprites/S_Hop_left/S_Hop_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_Hop_left","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"right","filters":[],"listItems":[],"multiselect":false,"name":"right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"S_Hop","path":"sprites/S_Hop/S_Hop.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_Hop","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"drop_burger","filters":[],"listItems":[],"multiselect":false,"name":"drop_burger","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"drop_soda","filters":[],"listItems":[],"multiselect":false,"name":"drop_soda","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

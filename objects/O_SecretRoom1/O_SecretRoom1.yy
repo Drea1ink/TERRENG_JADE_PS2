@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Trap",
+  "%Name":"O_SecretRoom1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Bullet","path":"objects/O_Bullet/O_Bullet.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Trap",
+  "name":"O_SecretRoom1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Objects/Interactables.yy",
+    "name":"Glitched_walls",
+    "path":"folders/Objects/Objects/Glitched_walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,14 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"active","filters":[],"listItems":[],"multiselect":false,"name":"active","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"Glitched_wall","filters":[],"listItems":[],"multiselect":false,"name":"Glitched_wall","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"O_Glitched_wall1","path":"objects/O_Glitched_wall1/O_Glitched_wall1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"O_Glitched_wall1","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Trap",
-    "path":"sprites/S_Trap/S_Trap.yy",
+    "name":"S_Interactable_detector",
+    "path":"sprites/S_Interactable_detector/S_Interactable_detector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

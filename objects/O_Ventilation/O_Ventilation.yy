@@ -6,8 +6,8 @@
   "name":"O_Ventilation",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Objects/Interactables.yy",
   },
   "parentObjectId":{
     "name":"O_Recharge",

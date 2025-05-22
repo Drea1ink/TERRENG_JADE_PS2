@@ -6,10 +6,12 @@
   ],
   "managed":true,
   "name":"O_Journals",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Poster","path":"objects/O_Poster/O_Poster.yy",},"propertyId":{"name":"Small_poster","path":"objects/O_Poster/O_Poster.yy",},"resource":{"name":"S_Journal","path":"sprites/S_Journal/S_Journal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Journal",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Collectibles",
+    "path":"folders/Objects/Objects/Collectibles.yy",
   },
   "parentObjectId":{
     "name":"O_Poster",

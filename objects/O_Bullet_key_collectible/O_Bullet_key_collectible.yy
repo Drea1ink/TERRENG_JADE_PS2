@@ -8,8 +8,8 @@
   "name":"O_Bullet_key_collectible",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Collectibles",
+    "path":"folders/Objects/Objects/Collectibles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Barry_plush",
-  "eventList":[],
+  "%Name":"O_Soda",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Shep","path":"objects/O_Shep/O_Shep.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Barry_plush",
+  "name":"O_Soda",
   "overriddenProperties":[],
   "parent":{
     "name":"Collectibles",
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Shep_left",
+    "path":"sprites/S_Shep_left/S_Shep_left.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

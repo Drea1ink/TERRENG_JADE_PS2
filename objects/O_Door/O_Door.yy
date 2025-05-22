@@ -8,8 +8,8 @@
   "name":"O_Door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Objects/Interactables.yy",
   },
   "parentObjectId":{
     "name":"O_Collider",

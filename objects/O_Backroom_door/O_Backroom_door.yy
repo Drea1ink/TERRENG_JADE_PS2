@@ -12,8 +12,8 @@
   "name":"O_Backroom_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Objects/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

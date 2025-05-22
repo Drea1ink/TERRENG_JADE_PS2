@@ -12,8 +12,8 @@
   "name":"O_Poster",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Objects/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"Small_poster","filters":[],"listItems":[],"multiselect":false,"name":"Small_poster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"Small_poster","filters":[],"listItems":[],"multiselect":false,"name":"Small_poster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"S_Affiche","path":"sprites/S_Affiche/S_Affiche.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_Affiche","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"show","filters":[],"listItems":[],"multiselect":false,"name":"show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"Big_Poster","filters":[],"listItems":[],"multiselect":false,"name":"Big_Poster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"Big_Poster","filters":[],"listItems":[],"multiselect":false,"name":"Big_Poster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"S_Big_Poster1","path":"sprites/S_Big_Poster1/S_Big_Poster1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_Big_Poster1","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"interaction_shep","filters":[],"listItems":[],"multiselect":false,"name":"interaction_shep","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",

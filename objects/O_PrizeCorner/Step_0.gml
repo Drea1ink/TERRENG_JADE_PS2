@@ -25,8 +25,8 @@ var l565B975A_0 = collision_point(x + 32, y + 64, O_Shep, true, 1);if((l565B975
 		/// @DnDParent : 23F722A0
 		/// @DnDArgument : "var" "O_Shep.tickets"
 		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "100"
-		if(O_Shep.tickets >= 100){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDArgument : "value" "350"
+		if(O_Shep.tickets >= 350){	/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 14AC104F
 			/// @DnDParent : 775D91FA

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_SecretRoom",
+  "%Name":"O_Glitched_wall1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_SecretRoom",
+  "name":"O_Glitched_wall1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Glitched_walls",
+    "path":"folders/Objects/Objects/Glitched_walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -25,7 +25,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"SecretRoom","filters":[],"listItems":[],"multiselect":false,"name":"SecretRoom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"O_SecretRoom1","path":"objects/O_SecretRoom1/O_SecretRoom1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"O_SecretRoom1","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -326,3 +326,17 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDArgument : "room" "Game_over"
 	/// @DnDSaveInfo : "room" "Game_over"
 	room_goto(Game_over);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0DB3D617
+/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "4"
+if(hp > 4){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1DC6E0C6
+	/// @DnDParent : 0DB3D617
+	/// @DnDArgument : "expr" "4"
+	/// @DnDArgument : "var" "hp"
+	hp = 4;}

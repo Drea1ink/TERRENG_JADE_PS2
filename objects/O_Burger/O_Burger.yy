@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Glitched_wall",
+  "%Name":"O_Burger",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Shep","path":"objects/O_Shep/O_Shep.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Glitched_wall",
+  "name":"O_Burger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects/Objects.yy",
+    "name":"Collectibles",
+    "path":"folders/Objects/Objects/Collectibles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Interactable_detector",
-    "path":"sprites/S_Interactable_detector/S_Interactable_detector.yy",
+    "name":"S_Shep",
+    "path":"sprites/S_Shep/S_Shep.yy",
   },
   "spriteMaskId":null,
   "visible":true,
