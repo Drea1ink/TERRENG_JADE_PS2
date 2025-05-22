@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Shep_left",
-    "path":"sprites/S_Shep_left/S_Shep_left.yy",
+    "name":"S_Soda",
+    "path":"sprites/S_Soda/S_Soda.yy",
   },
   "spriteMaskId":null,
   "visible":true,

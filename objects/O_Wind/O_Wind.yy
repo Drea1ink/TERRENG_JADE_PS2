@@ -5,7 +5,7 @@
   "managed":true,
   "name":"O_Wind",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"left","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Hop_left","path":"sprites/S_Hop_left/S_Hop_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Hop_left",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"left","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Wind_left","path":"sprites/S_Wind_left/S_Wind_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Wind_left",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"right","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Wind","path":"sprites/S_Wind/S_Wind.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Wind",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"hp","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"taille","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},

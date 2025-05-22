@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite43",
-    "path":"sprites/Sprite43/Sprite43.yy",
+    "name":"S_Prize_corner",
+    "path":"sprites/S_Prize_corner/S_Prize_corner.yy",
   },
   "spriteMaskId":null,
   "visible":true,

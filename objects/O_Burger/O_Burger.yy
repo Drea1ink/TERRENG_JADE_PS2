@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Shep",
-    "path":"sprites/S_Shep/S_Shep.yy",
+    "name":"S_Burger",
+    "path":"sprites/S_Burger/S_Burger.yy",
   },
   "spriteMaskId":null,
   "visible":true,
