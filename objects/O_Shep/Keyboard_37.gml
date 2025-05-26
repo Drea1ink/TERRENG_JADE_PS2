@@ -13,33 +13,39 @@ if(reading == false){	/// @DnDAction : YoYo Games.Common.Variable
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 369345A7
+	/// @DnDHash : 1CC4B019
 	/// @DnDParent : 693E1A9F
-	/// @DnDArgument : "var" "glitch"
-	/// @DnDArgument : "value" "true"
-	if(glitch == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDArgument : "var" "clipping"
+	/// @DnDArgument : "value" "false"
+	if(clipping == false){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 3CB6B6D1
-		/// @DnDParent : 369345A7
-		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "S_Hop_left"
-		/// @DnDSaveInfo : "spriteind" "S_Hop_left"
-		sprite_index = S_Hop_left;
-		image_index += 0;}
-
-	/// @DnDAction : YoYo Games.Common.Else
-	/// @DnDVersion : 1
-	/// @DnDHash : 3EF8FB5E
-	/// @DnDParent : 693E1A9F
-	else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDHash : 369345A7
+		/// @DnDParent : 1CC4B019
+		/// @DnDArgument : "var" "glitch"
+		/// @DnDArgument : "value" "true"
+		if(glitch == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 3CB6B6D1
+			/// @DnDParent : 369345A7
+			/// @DnDArgument : "imageind_relative" "1"
+			/// @DnDArgument : "spriteind" "S_Hop_left"
+			/// @DnDSaveInfo : "spriteind" "S_Hop_left"
+			sprite_index = S_Hop_left;
+			image_index += 0;}
+	
+		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
-		/// @DnDHash : 29187C4D
-		/// @DnDParent : 3EF8FB5E
-		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "S_Shep_left"
-		/// @DnDSaveInfo : "spriteind" "S_Shep_left"
-		sprite_index = S_Shep_left;
-		image_index += 0;}
+		/// @DnDHash : 3EF8FB5E
+		/// @DnDParent : 1CC4B019
+		else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 29187C4D
+			/// @DnDParent : 3EF8FB5E
+			/// @DnDArgument : "imageind_relative" "1"
+			/// @DnDArgument : "spriteind" "S_Shep_walking_left"
+			/// @DnDSaveInfo : "spriteind" "S_Shep_walking_left"
+			sprite_index = S_Shep_walking_left;
+			image_index += 0;}}
 
 	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 	/// @DnDVersion : 1.1

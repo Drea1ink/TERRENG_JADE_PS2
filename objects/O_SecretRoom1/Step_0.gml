@@ -15,11 +15,11 @@ var l0607F23C_0 = false;l0607F23C_0 = instance_exists(O_Shep);if(l0607F23C_0)
 		/// @DnDParent : 7655D91C
 		/// @DnDArgument : "x" "32"
 		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "64"
+		/// @DnDArgument : "y" "50"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "obj" "O_Shep"
 		/// @DnDSaveInfo : "obj" "O_Shep"
-		var l13B559C8_0 = collision_point(x + 32, y + 64, O_Shep, true, 1);if((l13B559C8_0)){	/// @DnDAction : YoYo Games.Common.Variable
+		var l13B559C8_0 = collision_point(x + 32, y + 50, O_Shep, true, 1);if((l13B559C8_0)){	/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 15D63893
 			/// @DnDInput : 3
