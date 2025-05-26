@@ -166,8 +166,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Fake_UI","path":"rooms/Fake_UI/Fake_UI.yy",},},
     {"roomId":{"name":"UI","path":"rooms/UI/UI.yy",},},
+    {"roomId":{"name":"Fake_UI","path":"rooms/Fake_UI/Fake_UI.yy",},},
     {"roomId":{"name":"Test_Room","path":"rooms/Test_Room/Test_Room.yy",},},
     {"roomId":{"name":"Game_over","path":"rooms/Game_over/Game_over.yy",},},
     {"roomId":{"name":"First_Level","path":"rooms/First_Level/First_Level.yy",},},
