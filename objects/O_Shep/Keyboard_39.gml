@@ -35,9 +35,9 @@ if(reading == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDHash : 6733590D
 		/// @DnDParent : 58EE81E3
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "S_Shep"
-		/// @DnDSaveInfo : "spriteind" "S_Shep"
-		sprite_index = S_Shep;
+		/// @DnDArgument : "spriteind" "S_Shep_walking"
+		/// @DnDSaveInfo : "spriteind" "S_Shep_walking"
+		sprite_index = S_Shep_walking;
 		image_index += 0;}
 
 	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape

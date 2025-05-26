@@ -11,4 +11,4 @@ if(no_plush == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDArgument : "y" "64"
 	/// @DnDArgument : "sprite" "S_Big_Poster1"
 	/// @DnDSaveInfo : "sprite" "S_Big_Poster1"
-	draw_sprite(S_Big_Poster1, 0, 64, 64);}
+	draw_sprite(S_BigPoster_Shep_Instructions, 0, 64, 64);}
