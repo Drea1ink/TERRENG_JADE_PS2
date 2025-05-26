@@ -27,9 +27,9 @@ if(clipping == true){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 249B5F58
 		/// @DnDParent : 6DE80186
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "S_Shep_glitched"
-		/// @DnDSaveInfo : "spriteind" "S_Shep_glitched"
-		sprite_index = S_Shep_glitched;
+		/// @DnDArgument : "spriteind" "S_Shep_left_glitched"
+		/// @DnDSaveInfo : "spriteind" "S_Shep_left_glitched"
+		sprite_index = S_Shep_left_glitched;
 		image_index += 0;}}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
