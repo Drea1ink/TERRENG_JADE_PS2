@@ -80,9 +80,9 @@ var l56168B55_0;l56168B55_0 = keyboard_check(vk_left);if (!l56168B55_0){	///
 					/// @DnDHash : 2685D5B5
 					/// @DnDParent : 5500F20B
 					/// @DnDArgument : "imageind_relative" "1"
-					/// @DnDArgument : "spriteind" "S_Shep"
-					/// @DnDSaveInfo : "spriteind" "S_Shep"
-					sprite_index = S_Shep;
+					/// @DnDArgument : "spriteind" "S_Shep_room2"
+					/// @DnDSaveInfo : "spriteind" "S_Shep_room2"
+					sprite_index = S_Shep_room2;
 					image_index += 0;}
 			
 				/// @DnDAction : YoYo Games.Common.Else
