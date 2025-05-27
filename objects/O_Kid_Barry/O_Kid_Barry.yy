@@ -9,7 +9,10 @@
     "name":"Foes",
     "path":"folders/Objects/Foes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Hop",
+    "path":"objects/O_Hop/O_Hop.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

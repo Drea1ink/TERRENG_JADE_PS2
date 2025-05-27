@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Kid_Wind",
+  "%Name":"O_Meat",
   "eventList":[],
   "managed":true,
-  "name":"O_Kid_Wind",
+  "name":"O_Meat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Foes",
-    "path":"folders/Objects/Foes.yy",
+    "name":"Collectibles",
+    "path":"folders/Objects/Objects/Collectibles.yy",
   },
-  "parentObjectId":{
-    "name":"O_Hop",
-    "path":"objects/O_Hop/O_Hop.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

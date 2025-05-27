@@ -4,12 +4,20 @@
   "eventList":[],
   "managed":true,
   "name":"O_Kid_Hop",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"hp","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"taille","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"right","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Hop","path":"sprites/S_Hop/S_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Hop",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"left","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Kid_Hop","path":"sprites/S_Kid_Hop/S_Kid_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Kid_Hop",},
+  ],
   "parent":{
     "name":"Foes",
     "path":"folders/Objects/Foes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Hop",
+    "path":"objects/O_Hop/O_Hop.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Kid_Hop",
+    "path":"sprites/S_Kid_Hop/S_Kid_Hop.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
