@@ -5,18 +5,17 @@
 /// @DnDArgument : "var" "interaction_shep"
 interaction_shep = false;
 
-/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
-/// @DnDVersion : 1
-/// @DnDHash : 74C3F5FD
-/// @DnDArgument : "x" "32"
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 76244A28
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "obj" "O_Shep"
-/// @DnDSaveInfo : "obj" "O_Shep"
-var l74C3F5FD_0 = collision_point(x + 32, y + 0, O_Shep, true, 1);if((l74C3F5FD_0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDArgument : "object" "O_Shep"
+/// @DnDSaveInfo : "object" "O_Shep"
+var l76244A28_0 = instance_place(x + 0, y + 0, [O_Shep]);if ((l76244A28_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 50D50D3B
-	/// @DnDParent : 74C3F5FD
+	/// @DnDParent : 76244A28
 	/// @DnDArgument : "var" "show"
 	/// @DnDArgument : "value" "false"
 	if(show == false){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -35,7 +34,7 @@ var l74C3F5FD_0 = collision_point(x + 32, y + 0, O_Shep, true, 1);if((l74C3F5FD
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
 	/// @DnDHash : 06A3457C
-	/// @DnDParent : 74C3F5FD
+	/// @DnDParent : 76244A28
 	else{	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1049DB5A

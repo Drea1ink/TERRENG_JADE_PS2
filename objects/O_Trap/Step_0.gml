@@ -31,19 +31,18 @@ else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDHash : 62FC4575
 /// @DnDArgument : "var" "active"
 /// @DnDArgument : "value" "true"
-if(active == true){	/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 170F80AC
+if(active == true){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 1707D8F6
 	/// @DnDParent : 62FC4575
-	/// @DnDArgument : "x" "32"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "obj" "O_Shep"
-	/// @DnDSaveInfo : "obj" "O_Shep"
-	var l170F80AC_0 = collision_point(x + 32, y + 0, O_Shep, true, 1);if((l170F80AC_0)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "object" "O_Shep"
+	/// @DnDSaveInfo : "object" "O_Shep"
+	var l1707D8F6_0 = instance_place(x + 0, y + 0, [O_Shep]);if ((l1707D8F6_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 45CD51DA
-		/// @DnDParent : 170F80AC
+		/// @DnDParent : 1707D8F6
 		/// @DnDArgument : "expr" "false"
 		/// @DnDArgument : "var" "active"
 		active = false;
@@ -51,7 +50,7 @@ if(active == true){	/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0948CFFF
-		/// @DnDParent : 170F80AC
+		/// @DnDParent : 1707D8F6
 		/// @DnDArgument : "expr" "-1"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "O_Shep.hp"
