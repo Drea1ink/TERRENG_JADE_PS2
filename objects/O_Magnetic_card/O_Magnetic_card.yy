@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Collider",
-    "path":"sprites/S_Collider/S_Collider.yy",
+    "name":"S_Key",
+    "path":"sprites/S_Key/S_Key.yy",
   },
   "spriteMaskId":null,
   "visible":true,

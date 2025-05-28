@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Interactable_detector",
-    "path":"sprites/S_Interactable_detector/S_Interactable_detector.yy",
+    "name":"S_Backdoor",
+    "path":"sprites/S_Backdoor/S_Backdoor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

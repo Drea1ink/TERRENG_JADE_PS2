@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Meat",
+    "path":"sprites/S_Meat/S_Meat.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
