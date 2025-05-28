@@ -9,6 +9,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"taille","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"hp","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"right","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Kid_Shep","path":"sprites/S_Kid_Shep/S_Kid_Shep.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Kid_Shep",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"time_shoot","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
   ],
   "parent":{
     "name":"Foes",

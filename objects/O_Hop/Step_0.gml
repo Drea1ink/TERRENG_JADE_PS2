@@ -77,7 +77,8 @@ var l0DA482A9_0 = false;l0DA482A9_0 = instance_exists(O_Shep);if(l0DA482A9_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 11CDEC90
 				/// @DnDParent : 54C27ABF
-				alarm_set(0, 30);}}}
+				/// @DnDArgument : "steps" "time_shoot"
+				alarm_set(0, time_shoot);}}}
 
 	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 	/// @DnDVersion : 1.1
@@ -153,7 +154,8 @@ var l0DA482A9_0 = false;l0DA482A9_0 = instance_exists(O_Shep);if(l0DA482A9_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 4DA3A609
 				/// @DnDParent : 6680BAFE
-				alarm_set(0, 30);}}}
+				/// @DnDArgument : "steps" "time_shoot"
+				alarm_set(0, time_shoot);}}}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -229,14 +231,33 @@ var l0DA482A9_0 = false;l0DA482A9_0 = instance_exists(O_Shep);if(l0DA482A9_0)
 			/// @DnDSaveInfo : "objectid" "O_Soda"
 			instance_create_layer(x + 0, y + 0, "Objects", O_Soda);}
 	
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 1B81F529
+		/// @DnDHash : 0CA6D513
 		/// @DnDParent : 45598103
-		/// @DnDArgument : "expr" "10"
-		/// @DnDArgument : "expr_relative" "1"
-		/// @DnDArgument : "var" "O_Shep.tickets"
-		O_Shep.tickets += 10;
+		/// @DnDArgument : "var" "room"
+		/// @DnDArgument : "value" "First_Level"
+		if(room == First_Level){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 1B81F529
+			/// @DnDParent : 0CA6D513
+			/// @DnDArgument : "expr" "10"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "O_Shep.tickets"
+			O_Shep.tickets += 10;}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 69FAF085
+		/// @DnDParent : 45598103
+		else{	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 60EF112E
+			/// @DnDParent : 69FAF085
+			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "O_Shep.tickets"
+			O_Shep.tickets += 1;}
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

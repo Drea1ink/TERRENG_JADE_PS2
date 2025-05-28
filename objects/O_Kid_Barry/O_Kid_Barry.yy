@@ -4,7 +4,11 @@
   "eventList":[],
   "managed":true,
   "name":"O_Kid_Barry",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"right","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Kid_Barry","path":"sprites/S_Kid_Barry/S_Kid_Barry.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Kid_Barry",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"left","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Kid_Barry_left","path":"sprites/S_Kid_Barry_left/S_Kid_Barry_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Kid_Barry_left",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"time_shoot","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+  ],
   "parent":{
     "name":"Foes",
     "path":"folders/Objects/Foes.yy",
@@ -30,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Kid_Barry",
+    "path":"sprites/S_Kid_Barry/S_Kid_Barry.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -5,6 +5,21 @@
 /// @DnDArgument : "var" "interaction_shep"
 interaction_shep = false;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2777A944
+/// @DnDArgument : "var" "O_Shep.peluche"
+/// @DnDArgument : "value" "true"
+if(O_Shep.peluche == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 351459A5
+	/// @DnDParent : 2777A944
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "S_Prize_corner_taken"
+	/// @DnDSaveInfo : "spriteind" "S_Prize_corner_taken"
+	sprite_index = S_Prize_corner_taken;
+	image_index += 0;}
+
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 563166C7

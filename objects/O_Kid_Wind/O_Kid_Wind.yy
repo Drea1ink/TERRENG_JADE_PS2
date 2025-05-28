@@ -4,7 +4,12 @@
   "eventList":[],
   "managed":true,
   "name":"O_Kid_Wind",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"left","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Kid_Wind_left","path":"sprites/S_Kid_Wind_left/S_Kid_Wind_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Kid_Wind_left",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"right","path":"objects/O_Hop/O_Hop.yy",},"resource":{"name":"S_Kid_Wind","path":"sprites/S_Kid_Wind/S_Kid_Wind.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Kid_Wind",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"time_shoot","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Hop","path":"objects/O_Hop/O_Hop.yy",},"propertyId":{"name":"drop_meat","path":"objects/O_Hop/O_Hop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Foes",
     "path":"folders/Objects/Foes.yy",
@@ -30,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Kid_Wind",
+    "path":"sprites/S_Kid_Wind/S_Kid_Wind.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

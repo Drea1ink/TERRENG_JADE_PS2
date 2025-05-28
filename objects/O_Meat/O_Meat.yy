@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"O_Meat",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Shep","path":"objects/O_Shep/O_Shep.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Meat",
   "overriddenProperties":[],

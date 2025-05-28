@@ -42,6 +42,7 @@
     {"$GMObjectProperty":"v1","%Name":"drop_burger","filters":[],"listItems":[],"multiselect":false,"name":"drop_burger","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"drop_soda","filters":[],"listItems":[],"multiselect":false,"name":"drop_soda","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"drop_meat","filters":[],"listItems":[],"multiselect":false,"name":"drop_meat","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"time_shoot","filters":[],"listItems":[],"multiselect":false,"name":"time_shoot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"90","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
