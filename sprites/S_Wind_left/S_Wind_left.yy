@@ -22,8 +22,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"27ba529e-9851-404d-8e6e-d994e3b514dc","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"27ba529e-9851-404d-8e6e-d994e3b514dc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"6b992bbe-86a2-40ed-9bf6-66019a2f1e13","blendMode":0,"displayName":"default","isLocked":false,"name":"6b992bbe-86a2-40ed-9bf6-66019a2f1e13","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3392278e-46a8-467e-8027-536b92ae61bd","blendMode":0,"displayName":"default","isLocked":false,"name":"3392278e-46a8-467e-8027-536b92ae61bd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Wind_left",
   "nineSlice":null,

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sprites/Objects.yy",
+    "name":"Newspaper",
+    "path":"folders/Sprites/Objects/Newspaper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

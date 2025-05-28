@@ -28,9 +28,9 @@ if(reading == false){	/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDHash : 3CB6B6D1
 			/// @DnDParent : 369345A7
 			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "S_Hop_left"
-			/// @DnDSaveInfo : "spriteind" "S_Hop_left"
-			sprite_index = S_Hop_left;
+			/// @DnDArgument : "spriteind" "S_Wind_walking_left"
+			/// @DnDSaveInfo : "spriteind" "S_Wind_walking_left"
+			sprite_index = S_Wind_walking_left;
 			image_index += 0;}
 	
 		/// @DnDAction : YoYo Games.Common.Else

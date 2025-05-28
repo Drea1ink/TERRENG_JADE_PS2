@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Affiche",
-    "path":"sprites/S_Affiche/S_Affiche.yy",
+    "name":"S_Poster_Hop_Bullet_Keys",
+    "path":"sprites/S_Poster_Hop_Bullet_Keys/S_Poster_Hop_Bullet_Keys.yy",
   },
   "spriteMaskId":null,
   "visible":true,
