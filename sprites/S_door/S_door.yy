@@ -49,8 +49,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sprites/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Sprites/Objects/Interactables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

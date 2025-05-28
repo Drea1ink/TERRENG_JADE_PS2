@@ -34,22 +34,22 @@ var l28A6418D_0 = false;l28A6418D_0 = instance_exists(O_Shep);if(l28A6418D_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 21F9B2B4
 		/// @DnDParent : 0768329D
-		/// @DnDArgument : "x" "205"
+		/// @DnDArgument : "x" "225"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "170"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "caption" ""x: ""
 		/// @DnDArgument : "var" "O_Shep.tickets"
-		draw_text(x + 205, y + 170, string("x: ") + string(O_Shep.tickets));
+		draw_text(x + 225, y + 170, string("x: ") + string(O_Shep.tickets));
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
 		/// @DnDHash : 0ACFBECA
 		/// @DnDParent : 0768329D
-		/// @DnDArgument : "x" "325"
+		/// @DnDArgument : "x" "345"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "170"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "caption" ""x: ""
 		/// @DnDArgument : "var" "O_Shep.journals"
-		draw_text(x + 325, y + 170, string("x: ") + string(O_Shep.journals));}}
+		draw_text(x + 345, y + 170, string("x: ") + string(O_Shep.journals));}}

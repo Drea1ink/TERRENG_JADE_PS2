@@ -38,5 +38,5 @@
     "path":"sprites/S_Collider/S_Collider.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

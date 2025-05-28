@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"O_Camera",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Inhibitor","path":"objects/O_Inhibitor/O_Inhibitor.yy",},"propertyId":{"name":"deactivated","path":"objects/O_Inhibitor/O_Inhibitor.yy",},"resource":{"name":"S_camera_deactivated","path":"sprites/S_camera_deactivated/S_camera_deactivated.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_camera_deactivated",},
+  ],
   "parent":{
     "name":"Interactables",
     "path":"folders/Objects/Objects/Interactables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Inhibitor",
+    "path":"objects/O_Inhibitor/O_Inhibitor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_camera",
+    "path":"sprites/S_camera/S_camera.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

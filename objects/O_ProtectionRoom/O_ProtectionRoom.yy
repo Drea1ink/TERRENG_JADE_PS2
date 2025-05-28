@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Barry_plush",
-  "eventList":[],
+  "%Name":"O_ProtectionRoom",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Shep","path":"objects/O_Shep/O_Shep.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Barry_plush",
+  "name":"O_ProtectionRoom",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collectibles",
-    "path":"folders/Objects/Objects/Collectibles.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Objects/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,8 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"S_ProtectionRoom",
+    "path":"sprites/S_ProtectionRoom/S_ProtectionRoom.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

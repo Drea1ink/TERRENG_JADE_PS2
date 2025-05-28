@@ -28,9 +28,8 @@ if(active == true){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 			/// @DnDHash : 2D7D72AE
 			/// @DnDParent : 5E5CEB66
 			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "S_Inhibitor_2"
-			/// @DnDSaveInfo : "spriteind" "S_Inhibitor_2"
-			sprite_index = S_Inhibitor_2;
+			/// @DnDArgument : "spriteind" "deactivated"
+			sprite_index = deactivated;
 			image_index += 0;
 		
 			/// @DnDAction : YoYo Games.Common.Variable

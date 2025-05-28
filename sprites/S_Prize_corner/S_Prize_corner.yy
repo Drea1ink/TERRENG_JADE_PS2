@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"cfb8a017-3f71-4121-bd8a-3e42385d7f67","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"cfb8a017-3f71-4121-bd8a-3e42385d7f67","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"33c14255-e181-4963-b249-030818d8d6bb","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"33c14255-e181-4963-b249-030818d8d6bb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6242a17e-0cef-42fc-ac10-3aeb882cd166","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6242a17e-0cef-42fc-ac10-3aeb882cd166","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a4789343-64cc-4190-b30f-ffe0e8ab54df","blendMode":0,"displayName":"default","isLocked":false,"name":"a4789343-64cc-4190-b30f-ffe0e8ab54df","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -27,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sprites/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Sprites/Objects/Interactables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
